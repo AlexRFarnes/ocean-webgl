@@ -2,7 +2,6 @@
   "name": "merging_webgl_html",
   "version": "1.0.0",
   "description": "",
-  "main": "src/js/app.js",
   "source": "index.html",
   "scripts": {
     "start": "parcel",
