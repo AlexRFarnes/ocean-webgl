@@ -1,0 +1,24 @@
+{
+  "name": "merging_webgl_html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/js/app.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-glsl": "^2.8.3",
+    "parcel": "^2.8.3"
+  },
+  "dependencies": {
+    "fontfaceobserver": "^2.3.0",
+    "gsap": "^3.11.4",
+    "imagesloaded": "^5.0.0",
+    "three": "^0.149.0"
+  }
+}
